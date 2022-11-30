@@ -1,0 +1,9 @@
+{
+    "name": "turpinn/modern-php",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\" : "class/"
+        }
+    }
+}

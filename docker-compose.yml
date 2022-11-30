@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+  php:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: php73
+    image: php
+    volumes:
+      - ./php:/var/www/html/
+    ports:
+      - 80:80
